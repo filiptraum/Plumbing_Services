@@ -237,10 +237,10 @@ body.popupIsOpen {
 
 .popup-call-us.popupIsOpen {
   pointer-events: all;
-  -webkit-user-select: all;
-     -moz-user-select: all;
-      -ms-user-select: all;
-          user-select: all;
+  -webkit-user-select: auto;
+     -moz-user-select: auto;
+      -ms-user-select: auto;
+          user-select: auto;
   opacity: 1;
   -webkit-transform: translate(-50%, -50%);
       -ms-transform: translate(-50%, -50%);
@@ -3150,7 +3150,6 @@ body.popupIsOpen {
     padding-left: 0;
   }
 }
-
 @supports (-webkit-appearance:none){
 .home__body{background-image:-webkit-gradient(linear, left top, right top, from(#4f50e9), to(rgba(239, 61, 1, 0.2))), url(../img/Home/fon.webp)}
 .home__body{background-image:-o-linear-gradient(left, #4f50e9, rgba(239, 61, 1, 0.2)), url(../img/Home/fon.webp)}
@@ -3165,14 +3164,14 @@ body.popupIsOpen {
 .contact-top-center__img-fon{background-image:-o-linear-gradient(right, #4f50e9, rgba(239, 61, 1, 0.2)), url(../img/man.webp)}
 .contact-top-center__img-fon{background-image:linear-gradient(to left, #4f50e9, rgba(239, 61, 1, 0.2)), url(../img/man.webp)}
 }
- @media screen and (max-width: 825px){
+@media screen and (max-width: 825px){
 @supports (-webkit-appearance:none){
 .home__body{background-image:-webkit-gradient(linear, left top, right top, from(#4f50e9), to(rgba(239, 61, 1, 0.3))), url(../img/Home/fon.webp)}
 .home__body{background-image:-o-linear-gradient(left, #4f50e9, rgba(239, 61, 1, 0.3)), url(../img/Home/fon.webp)}
 .home__body{background-image:linear-gradient(to right, #4f50e9, rgba(239, 61, 1, 0.3)), url(../img/Home/fon.webp)}
 }
 }
- @media screen and (max-width: 600px){
+@media screen and (max-width: 600px){
 @supports (-webkit-appearance:none){
 .home__body{background-image:-webkit-gradient(linear, left top, right top, from(#4f50e9), to(rgba(239, 61, 1, 0.6))), url(../img/Home/fon.webp)}
 .home__body{background-image:-o-linear-gradient(left, #4f50e9, rgba(239, 61, 1, 0.6)), url(../img/Home/fon.webp)}
